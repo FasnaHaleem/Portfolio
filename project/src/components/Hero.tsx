@@ -152,7 +152,7 @@ export default function Hero() {
               >
                 <p className="section-label mb-0.5">Currently</p>
                 <p className="sans text-sm font-medium" style={{ color: 'var(--text-dark)' }}>
-                  Undergraduate
+                  Open to Work
                 </p>
               </div>
             </div>

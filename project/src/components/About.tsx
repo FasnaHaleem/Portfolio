@@ -144,7 +144,7 @@ export default function About() {
               </p>
             </div>
             
-              <a href="/Fasna_CV.pdf"
+              <a href={`${import.meta.env.BASE_URL}Fasna_CV.pdf`}
               download
               className="btn-primary"
               style={{ whiteSpace: 'nowrap', display: 'flex', alignItems: 'center', gap: '8px' }}
