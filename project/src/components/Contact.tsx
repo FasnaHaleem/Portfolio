@@ -59,7 +59,7 @@ export default function Contact() {
     {
       icon: Phone,
       label: 'Phone',
-      value: '076 243 5115',
+      value: '+94 76 243 5115',
       href: 'tel:0762435115',
     },
     {

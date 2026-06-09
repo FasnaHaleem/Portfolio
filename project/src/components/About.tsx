@@ -91,19 +91,7 @@ export default function About() {
               Technologies.
             </p>
 
-            <div className="mt-8 grid grid-cols-2 gap-4">
-              {[
-                { label: 'University', value: 'Rajarata University, SL' },
-                { label: 'Degree', value: 'BSc Information Technology' },
-                { label: 'Graduation', value: 'Expected 2026' },
-                { label: 'Location', value: 'Sri Lanka' },
-              ].map((item) => (
-                <div key={item.label}>
-                  <p className="section-label text-[10px] mb-1">{item.label}</p>
-                  <p className="text-sm font-medium" style={{ color: 'var(--text-dark)' }}>{item.value}</p>
-                </div>
-              ))}
-            </div>
+            
           </div>
         </div>
 
@@ -134,6 +122,35 @@ export default function About() {
                 to build solutions that are impactful, scalable, and human-first.
               </p>
             </div>
+          </div>
+        </div>
+
+        {/* Download CV */}
+        <div className="reveal delay-3 mt-12">
+          <div
+            className="rounded-3xl p-8 md:p-10 flex flex-col md:flex-row items-center justify-between gap-6"
+            style={{ background: 'var(--cream)', border: '1px solid var(--sand)' }}
+          >
+            <div>
+              <p className="section-label mb-2">My Resume</p>
+              <h3
+                className="serif mb-2"
+                style={{ fontSize: '1.6rem', fontWeight: 300, color: 'var(--text-dark)' }}
+              >
+                Download My <em>CV</em>
+              </h3>
+              <p className="text-sm leading-loose" style={{ color: 'var(--text-mid)' }}>
+                Get a full copy of my CV including education, skills, projects and certifications.
+              </p>
+            </div>
+            
+              <a href="/Fasna_CV.pdf"
+              download
+              className="btn-primary"
+              style={{ whiteSpace: 'nowrap', display: 'flex', alignItems: 'center', gap: '8px' }}
+            >
+              ↓ Download CV (PDF)
+            </a>
           </div>
         </div>
       </div>
