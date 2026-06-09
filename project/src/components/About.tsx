@@ -48,7 +48,7 @@ export default function About() {
                 style={{ borderRadius: '24px', background: 'var(--beige)' }}
               >
                 <img
-                  src={'${import.meta.env.BASE_URL}Fasna about me.jpeg'}
+                  src={`${import.meta.env.BASE_URL}Fasna about me.jpeg`}
                   alt="Fasna Haleem"
                   className="w-full h-full object-cover object-top"
                 />
