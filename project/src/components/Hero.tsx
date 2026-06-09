@@ -134,7 +134,7 @@ export default function Hero() {
                 }}
               >
                 <img
-                  src="/Fasna hero.jpeg"
+                  src={'${import.meta.env.BASE_URL}Fasna hero.jpeg'}
                   alt="Fasna Haleem"
                   className="w-full h-full object-cover object-top"
                 />

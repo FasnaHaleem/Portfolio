@@ -9,7 +9,7 @@ const certifications = [
     description: 'Successfully participated in the workshop "Agile Mastery: Empowering Teams for Project Success." The workshop provided valuable insights into Agile methodologies, teamwork, collaboration, project planning, and effective project management practices. Gained knowledge of Agile principles and how they can be applied in software development and team-based projects.',
     skills: ['Agile Methodologies', 'Team Collaboration', 'Project Management', 'Communication Skills', 'Software Development Processes'],
     type: 'certification',
-    image: '/Agile.jpeg',
+    image: '${import.meta.env.BASE_URL}Agile.jpeg',
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const certifications = [
     description: 'Successfully completed the Python Essentials 1 course. Developed a strong foundation in Python programming, problem-solving techniques, data structures, functions, variables, loops, and core programming concepts. This course strengthened programming and software development skills.',
     skills: ['Python Programming', 'Problem Solving', 'Functions', 'Data Structures', 'Software Development Fundamentals'],
     type: 'certification',
-    image: '/Python essentials.jpeg',
+    image: '${import.meta.env.BASE_URL}Python essentials.jpeg',
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const certifications = [
     description: 'Successfully completed the Google AI Essentials course, gaining foundational knowledge of Artificial Intelligence, generative AI tools, responsible AI usage, prompt engineering, and practical AI applications in modern workplaces.',
     skills: ['Artificial Intelligence', 'Generative AI', 'Prompt Engineering', 'Responsible AI', 'AI Productivity Tools'],
     type: 'certification',
-    image: '/Google AI Essentials.PNG',
+    image: '${import.meta.env.BASE_URL}Google AI Essentials.PNG',
   },
   {
     id: 4,
@@ -35,7 +35,7 @@ const certifications = [
     description: 'Participated in the BITCODE competition, demonstrating problem-solving abilities, technical knowledge, teamwork, and innovation in a competitive technology-focused environment.',
     skills: ['Technical Problem Solving', 'Team Collaboration', 'Innovation & Creativity', 'Competitive Programming Exposure'],
     type: 'achievement',
-    image: '/BITCODE.jpeg',
+    image: '${import.meta.env.BASE_URL}BITCODE.jpeg',
   },
 ];
 
